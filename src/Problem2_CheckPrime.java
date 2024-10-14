@@ -36,7 +36,7 @@ public class Problem2_CheckPrime {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println("hi");
+		
 		Scanner sc=new Scanner(System.in);
 		int num=sc.nextInt();
 		checkPrime(num);
