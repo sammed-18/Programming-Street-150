@@ -9,11 +9,11 @@ public class Problem2_CheckPrime {
 		System.out.println("Not Prime not composite");
 		return;
 	    }
-//		if(num==2)
-//		{
-//			System.out.println("Prime");
-//			return;
-//		}
+		if(num==2)
+		{
+			System.out.println("Prime");
+			return;
+		}
 		
 		boolean result=true;
 		for(int i=2;i<=Math.sqrt(num);i++)
@@ -40,6 +40,7 @@ public class Problem2_CheckPrime {
 		Scanner sc=new Scanner(System.in);
 		int num=sc.nextInt();
 		checkPrime(num);
+		sc.close();
 	}
 }
 
