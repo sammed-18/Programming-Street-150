@@ -16,6 +16,7 @@ public class Problem3_CheckleapYear {
 		Scanner sc=new Scanner(System.in);
 		int year=sc.nextInt();
 		checkLeapYear(year);
+		sc.close();
 	}
 
 }
